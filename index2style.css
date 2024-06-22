@@ -1,0 +1,100 @@
+header{
+    position: fixed;
+    top: 0; left: 0; right: 0;
+    background: #adb6c4;
+    padding: 1rem 9%;
+    display: flex;
+    align-items: center;
+    z-index: 1000;
+    box-shadow: 0.5rem 1 rem rgba(213, 186, 186, 0.1);
+}
+
+header .logo{
+    font-size: 1.2rem;
+    color: #22223b;
+    font-weight: bolder;
+
+}
+
+.heading{
+    text-align: center;
+    font-size: 2.8rem;
+    color:#403d39;
+    padding: 1rem;
+    margin: 2.5rem 0;
+    background: #d8e2dc;   
+}
+
+.heading span{
+    color: #8a897c;  
+}
+
+body {
+    background-color: whitesmoke;
+    font-size: x-large;
+    text-align: center;
+}
+
+.myListBox {
+    background-color: #d8e2dc;
+    position:relative; 
+    background-position: center;
+    width: fit-content;
+    width: 300px;
+    height: 100px;
+    top: 50%;
+    left: 50%;
+    margin-left: -150px;
+    box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+    color: bisque;
+    height: max-content;
+}
+
+
+form {
+    text-align: center;
+}
+
+input[type=text],select,textarea {
+    width: 25%;
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    margin-top: 22px;
+    margin-bottom: 3px;
+    text-align: center;
+}
+
+input[type=button] {
+    background-color: #dddbcb;
+    margin-top: 22px;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+input[type=button]:hover {
+    background-color: #eee2df;
+}
+
+.ultraCentered {
+    text-align: center;
+}
+
+.ultraCentered > ul {
+    display: inline-block;
+}
+
+footer {
+    position: fixed;
+    text-align: center;
+    bottom: 5px;
+    width: 100%;
+}
+
+  .Footerw {
+    background-color: #ccc9b9;
+  }
+  
